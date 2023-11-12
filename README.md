@@ -21,11 +21,14 @@ pip freeze > requirements.txt
 8. Test locally
 9. Create .ebignore
 10. Create new environment
+
 Create app
 ```
 eb init -p python-3.8 flask-cloud-data
 ```
+
 Create Role - https://stackoverflow.com/questions/30790666/error-with-not-existing-instance-profile-while-trying-to-get-a-django-project-ru
+
 Create the environment
 ```
 eb create flask-cloud-data-env
