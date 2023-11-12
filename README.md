@@ -21,7 +21,7 @@ pip freeze > requirements.txt
 8. Test locally
 9. Create .ebignore
 10. Create new environment
-Initialize environment
+Create app
 ```
 eb init -p python-3.8 flask-cloud-data
 ```
